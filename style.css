@@ -41,8 +41,8 @@
 
 header {
   background-color: #fefcfb;
-  /* margin: 10px;
-    padding: 10px; */
+  /* margin: 10px; */
+  padding: 10px;
   justify-content: center;
   align-items: center;
 }
@@ -202,13 +202,14 @@ a {
 }
 
 .model-image img {
-  /* width: 100%; */
+  margin-top: 80px;
+  /* width: 60%; */
   justify-content: end;
 }
 .things-card {
   margin: 2px;
   background: #ffffff;
-  width: 300px;
+  width: 275px;
   border-radius: 5px;
   padding: 20px;
   color: black;
@@ -242,8 +243,10 @@ a {
 }
 
 .parent {
+  margin-top: 80px;
   display: flex;
   text-align: center;
+  align-items: center;
 }
 
 .sub-parent {
@@ -252,6 +255,7 @@ a {
 }
 
 .things-component {
+  margin-top: 100px;
   padding: 20px;
   background: #f7f8fc;
 }
@@ -259,8 +263,8 @@ a {
 /* Exclusive deals style starts */
 
 .sub-parent-deals {
-  padding: 50px;
-  width: 40%;
+  padding: 30px;
+  width: 45%;
   margin: 0 auto;
 }
 
@@ -338,9 +342,101 @@ a {
   -moz-box-shadow: 9px 18px 17px -1px rgba(180, 132, 80, 0.27);
 }
 .client-container {
+  margin-top: 80px;
   background-color: #f7f8fc;
 }
 #client-pic {
   align-items: center;
   margin: 20px;
+}
+.rome-resize {
+  width: 369px;
+  height: 327px;
+}
+.dot-indicators {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 10px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: #e0e0e0;
+  border-radius: 50%;
+}
+
+.dot.active {
+  background-color: #fa7436;
+}
+.subscription-section {
+  background-color: #fa7436;
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+  border-radius: 10px;
+  margin: 40px auto;
+  max-width: 900px;
+}
+
+.subscription-section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.subscribe-form input[type="email"] {
+  padding: 12px 20px;
+  border-radius: 6px;
+  border: none;
+  width: 300px;
+  max-width: 100%;
+}
+
+.footer-container {
+  border-bottom: 1px solid grey;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-section {
+  /* display: flex; */
+  justify-content: center;
+  gap: 100px;
+  padding: 60px 20px;
+  background-color: #f9fafc;
+  color: #333;
+}
+
+.footer-column {
+  display: flex;
+  text-align: left;
+}
+
+.footer-column h4 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 12px;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
 }
